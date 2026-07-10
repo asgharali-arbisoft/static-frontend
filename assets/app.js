@@ -10,10 +10,11 @@
       React.createElement("section", { className: "panel" },
         React.createElement("p", { className: "eyebrow" }, "CloudFront + S3"),
         React.createElement("h1", null, "Admin static site is live"),
+        React.createElement("p", { className: "release" }, "Release v2.0-test is deploying through tag-based CI/CD"),
         React.createElement(
           "p",
           { className: "copy" },
-          "This React smoke test is being served from a private S3 bucket through CloudFront Origin Access Control."
+          "This React smoke test now includes a visible release marker so we can confirm the CloudFront + S3 deployment refreshed."
         ),
         React.createElement("dl", { className: "facts" },
           React.createElement("div", null,
@@ -23,6 +24,10 @@
           React.createElement("div", null,
             React.createElement("dt", null, "Runtime"),
             React.createElement("dd", null, "React 18 via CloudFront")
+          ),
+          React.createElement("div", null,
+            React.createElement("dt", null, "Release"),
+            React.createElement("dd", null, "v2.0-test")
           ),
           React.createElement("div", null,
             React.createElement("dt", null, "SPA route"),

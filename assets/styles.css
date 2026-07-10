@@ -54,6 +54,16 @@ h1 {
   margin: 0 0 28px;
 }
 
+.release {
+  background: #e9f6f0;
+  border: 1px solid #b9dfce;
+  border-radius: 6px;
+  color: #17543e;
+  font-weight: 700;
+  margin: 0 0 18px;
+  padding: 12px 14px;
+}
+
 .facts {
   border-top: 1px solid #e2e7ef;
   display: grid;
